@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RAB_Challenge_06chatbot</Text>
+    <Description>Some description for RAB_Challenge_06chatbot</Description>
+    <Assembly>RAB_Challenge_06chatbot.dll</Assembly>
+    <FullClassName>RAB_Challenge_06chatbot.Command</FullClassName>
+    <ClientId>d81e868e-70b5-40b6-b420-674193b1e1ff</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RAB_Challenge_06chatbot</Name>
+    <Assembly>RAB_Challenge_06chatbot.dll</Assembly>
+    <FullClassName>RAB_Challenge_06chatbot.App</FullClassName>
+    <ClientId>6664cbbf-72ca-4405-98b6-e6fb9e126f5d</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
